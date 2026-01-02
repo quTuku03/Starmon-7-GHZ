@@ -33,3 +33,4 @@ Create a jupyter notebook and enter the following
 backend = provider.get_backend(name=backend_name)
 5. %matplotlib inline
 %run GHZ_test.py 
+6. open your qi profile via https://www.quantum-inspire.com/
