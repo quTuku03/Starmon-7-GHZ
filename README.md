@@ -26,7 +26,7 @@ $$|\text{GHZ}\rangle = \frac{|0000000\rangle + |1111111\rangle}{\sqrt{2}}$$
 
 ##  How to Run
 Create a jupyter notebook and enter the following
-1. !qi login https://api.quantum-inspire.com
+1. !qi login "https://api.quantum-inspire.com"
 2. provider = QIProvider()
 3. provider.backends()
 4. backend_name = "Starmon-7"
