@@ -5,7 +5,7 @@ This project demonstrates **multipartite quantum entanglement** by generating a 
 ##  The Physics
 We create a state where 7 qubits are entangled such that they are all in the $|0\rangle$ state OR all in the $|1\rangle$ state simultaneously, with no overlap.
 
-The mathematical target state is:
+The ket state is:
 
 $$|\text{GHZ}\rangle = \frac{|0000000\rangle + |1111111\rangle}{\sqrt{2}}$$
 
