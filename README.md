@@ -25,6 +25,11 @@ $$|\text{GHZ}\rangle = \frac{|0000000\rangle + |1111111\rangle}{\sqrt{2}}$$
 * `matplotlib`
 
 ##  How to Run
-1.  Ensure your API token is set (via `qi login`).
-2.  Open the jupyter notebook: GHZ
-3.  Run the experiment script: ghz_entanglement.py
+Create a jupyter notebook and enter the following
+1. !qi login "https://api.quantum-inspire.com"
+2. provider = QIProvider()
+3. provider.backends()
+4. backend_name = "Starmon-7"
+backend = provider.get_backend(name=backend_name)
+5. %matplotlib inline
+%run GHZ_test.py 
