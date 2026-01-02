@@ -17,6 +17,7 @@ $$|\text{GHZ}\rangle = \frac{|0000000\rangle + |1111111\rangle}{\sqrt{2}}$$
 * https://www.quantum-inspire.com/
 * https://github.com/DiCarloLab-Delft/QuantumInspireUtilities
 * https://github.com/QuTech-Delft/quantuminspire2
+* https://en.wikipedia.org/wiki/Greenberger%E2%80%93Horne%E2%80%93Zeilinger_state
 
 ## Prerequisites
 * Python 3.8+
