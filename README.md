@@ -7,11 +7,11 @@ We create a state where 7 qubits are entangled such that they are all in the $|0
 
 The ket state is:
 
-$$|\text{GHZ}\rangle = |\text{Ψ}\rangle = \frac{|0000000\rangle + |1111111\rangle}{\sqrt{2}}$$
+$$|\text{GHZ}\rangle = |\text{ψ}\rangle = \frac{|0000000\rangle + |1111111\rangle}{\sqrt{2}}$$
 
 ### What to Expect
 1.  **Ideal Scenario:** We measure $|0000000\rangle$ 50% of the time and $|1111111\rangle$ 50% of the time.
-2.  **Real Hardware:** Due to noise you will see other states (like $|0000001\rangle$ or $|1000000\rangle$ ). The contrast between the target states and the noise indicates potentialy the quality of the quantum processor.
+2.  **Real Hardware:** Due to noise you will see other states (like $|0000001\rangle$ or $|1000000\rangle$ ). The contrast between the target states and the noise indicates potentially the quality of the quantum processor.
 
 ## Usefull links
 * https://www.quantum-inspire.com/
