@@ -27,13 +27,13 @@ job = backend.run(transpiled_qc, shots=1024)
 result = job.result()
 counts = result.get_counts()
 
-# Print probabilities for each state
+# Prints probabilities for each state
 print("\nMeasurement results (1024 shots):")
 for state, count in sorted(counts.items()):
     probability = count / 1024
     print(f"State |{state}⟩: {count} counts ({probability:.3f})")
 
-# Show results histogram
+# Histogram
 plot_histogram(counts)
 plt.title("GHZ State Measurement Probabilities")
 plt.show()
