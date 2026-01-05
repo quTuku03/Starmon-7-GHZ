@@ -29,9 +29,9 @@ $$|\text{GHZ}\rangle = \frac{|0000000\rangle + |1111111\rangle}{\sqrt{2}}$$
 Create a jupyter notebook and enter the following
 1. !qi login "https://api.quantum-inspire.com"
 2. provider = QIProvider()
-3. provider.backends()
+3. provider.backends() (this command showcases the avaible backends/processors)
 4. backend_name = "Starmon-7"
 backend = provider.get_backend(name=backend_name)
 5. %matplotlib inline
 %run GHZ_test.py 
-6. enter your qi profile via **https://www.quantum-inspire.com/** and search for your project (Program created by SDK)
+6. enter your qi profile via https://www.quantum-inspire.com/ and search for your project (Program created by SDK)
