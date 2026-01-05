@@ -19,12 +19,6 @@ $$|\text{GHZ}\rangle = |\text{Ψ}\rangle = \frac{|0000000\rangle + |1111111\rang
 * https://github.com/QuTech-Delft/quantuminspire2
 * https://en.wikipedia.org/wiki/Greenberger%E2%80%93Horne%E2%80%93Zeilinger_state
 
-## Prerequisites
-* Python 3.8+
-* `qiskit`
-* `qiskit-quantuminspire`
-* `matplotlib`
-
 ##  How to Run
 Create a jupyter notebook and enter the following
 1. !qi login "https://api.quantum-inspire.com"
