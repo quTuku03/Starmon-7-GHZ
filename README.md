@@ -1,6 +1,7 @@
 # 7 Qubit GHZ-Entanglement on Starmon-7
 
 This project demonstrates **multipartite quantum entanglement** by generating a Greenberger-Horne-Zeilinger (GHZ) state on the Starmon-7 quantum processor.
+* https://www.quantum-inspire.com/kbase/starmon-7-operational-specifics/
 
 ##  The Physics
 We create a state where 7 qubits are entangled such that they are all in the $|0\rangle$ state OR all in the $|1\rangle$ state simultaneously, with no overlap.
