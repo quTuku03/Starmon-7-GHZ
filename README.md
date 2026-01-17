@@ -12,10 +12,9 @@ $$|\text{GHZ}\rangle = |\text{ψ}\rangle = \frac{|0000000\rangle + |1111111\rang
 
 ### What to Expect
 1.  **Ideal Scenario:** We measure $|0000000\rangle$ 50% of the time and $|1111111\rangle$ 50% of the time.
-  **For state $|0000000\rangle$:**
+
     $$P(0000000) = \left| \frac{1}{\sqrt{2}} \right|^2 = \frac{1}{2} = 50\%$$
 
- **For state $|1111111\rangle$:**
     $$P(1111111) = \left| \frac{1}{\sqrt{2}} \right|^2 = \frac{1}{2} = 50\%$$
 2.  **Real Hardware:** Due to noise you will see other possible states. The contrast between the target states and the noise potentially indicates the quality of the quantum processor.
 
