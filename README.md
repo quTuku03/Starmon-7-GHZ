@@ -1,6 +1,6 @@
 # 7 Qubit GHZ-Entanglement on Starmon-7
 
-This project demonstrates **multipartite quantum entanglement** by generating a Greenberger-Horne-Zeilinger (GHZ) state on the Starmon-7 quantum processor.
+This repo demonstrates **multipartite quantum entanglement** by generating a Greenberger-Horne-Zeilinger (GHZ) state on the Starmon-7 quantum processor.
 * https://www.quantum-inspire.com/kbase/starmon-7-operational-specifics/
 
 ##  The Physics
